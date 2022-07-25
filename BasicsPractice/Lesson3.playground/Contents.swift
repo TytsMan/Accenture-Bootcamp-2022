@@ -78,4 +78,4 @@ for _ in 1... {
 }
 
 print("bug will spend \(daysSpent) to reach top of the post")
-print("bug")
+print("bugx ")
