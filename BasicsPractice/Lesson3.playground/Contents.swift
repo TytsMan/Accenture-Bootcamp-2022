@@ -42,9 +42,17 @@ dump(evenNumberArray)
  Inside the for loop create randomNumber for the random Int calculation. Calculate and print("Number 5 will be after \(counter) shuffles"). Don't forget to make a break inside the if statement.
  */
 
-for iteration in 1...10 {
-    print("Number \(Int.random(in: 1...199)) will be after \(iteration) shuffles")
+var num = 0
+var shuflesCount = 0
+
+while(num != 5) {
+
+    num = Int.random(in: 1...10)
+    shuflesCount += 1
 }
+
+print("Number 5 will be after \(shuflesCount) shuffles")
+
 
 /*
  Exercise 4
